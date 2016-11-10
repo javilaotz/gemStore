@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<!-- ng-app: directiva que permite cargar modulos en nuestra pagina html -->
+<html ng-app="store"><!-- Run this module when the document loads -->
+<head>
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+</head>
+<body ng-controller="StoreController as store">
+<div class="col-md-12 panel panel-success" ng-repeat="product in store.products | orderBy: '+name'" ng-hide="product.soldOut">
+  <panel-body class="panel-body"></panel-body>
+</div>
+	<!--{{store.product.name}} Esto no carga porque no está en el mismo ambiente. -->
+	<!-- Ahora si Carga -->
+	<script type="text/javascript" src="angular.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>

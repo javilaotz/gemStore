@@ -1,0 +1,17 @@
+<div class="col-md-3">
+	<!--<h3 ng-include="'product-title.html'"></h3>-->
+	<product-title></product-title>
+	<!--<h3> {{product.name}} <em class="pull-right">{{product.price | currency}}</em> </h3>-->
+	
+</div>
+
+<div class="col-md-3">
+	<div>
+		<img width="25%" ng-src="{{product.images[0].full}}">
+		<button class="btn btn-default pull-right" ng-show="product.canPurchase"> Add to Cart</button>	
+	</div>
+</div>
+<div class="col-md-1">&nbsp;</div>
+<div class="col-md-5">
+	<product-panels></product-panels>
+</div>
