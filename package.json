@@ -1,18 +1,29 @@
 {
-  "name": "angular",
+  "name": "gemstore",
   "version": "1.0.0",
-  "description": "initial project",
+  "description": "",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ws -s -p 8888"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javilaotz/gemStore.git"
   },
   "keywords": [
-    "app",
+    "angular",
     "gem",
-    "store",
-    "-",
-    "javilaortiz"
+    "app"
   ],
   "author": "javilaortiz",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/javilaotz/gemStore/issues"
+  },
+  "homepage": "https://github.com/javilaotz/gemStore#readme",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "bootstrap": "^3.3.7"
+  }
 }
