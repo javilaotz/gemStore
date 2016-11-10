@@ -1,0 +1,43 @@
+[
+	{
+		"name": "dodecahedron",
+		"price": 2.95,
+		"description": "Lorem Ipsum",
+		"images": [{"full": "img/img.gif"},{"thumb": "img/img.gif"}],
+		"canPurchase": true,
+		"soldOut": false,
+		"reviews": [
+			{
+				"stars": 4,
+				"body": "I love this gem!",
+				"author": "joe@thomas.com"
+			},
+			{
+				"stars": 5,
+				"body": "I love this gem!",
+				"author": "joe@thomas.com"
+			},
+			{
+				"stars": 1,
+				"body": "I love this gem!",
+				"author": "joe@thomas.com"
+			}			
+		]
+	},
+	{
+		"name": "malachite",
+		"price": 19.13,
+		"description": "Malachite, with its beautiful, rich green color, leaves no doubt of its importance as a jewel. Its opaque strength and power demands respect.",
+		"images": [{"full": "img/malachite.jpg"},{"thumb": "img/malachite.jpg"}],
+		"canPurchase": true,
+		"soldOut": false
+	},
+	{
+		"name": "titanium Cobalt",
+		"price": 119.55,
+		"description": "This is Titanium Cobalt Blue Quartz Cluster. Titanium Quartz is natural quartz that has been heat infused with rare metals in a vacuum chamber.",
+		"images": [{"full": "img/cobalt.jpg"},{"thumb": "img/cobalt.jpg"}],
+		"canPurchase": true,
+		"soldOut": false
+	}
+]
