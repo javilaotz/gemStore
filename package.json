@@ -24,6 +24,7 @@
   "homepage": "https://github.com/javilaotz/gemStore#readme",
   "dependencies": {
     "angular": "^1.5.8",
-    "bootstrap": "^3.3.7"
+    "bootstrap": "^3.3.7",
+    "ngstorage": "^0.3.11"
   }
 }
