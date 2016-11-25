@@ -1,12 +1,19 @@
 (function(){
 	var app = angular.module('store-products', []);
+	console.log(app);
 	
 
 	app.directive('panelBody', function(){
 		return {
 			restrict: 'E',
 			templateUrl: './src/product/panel-body.html',
-			controller: function(){
+			controller: function($scope){
+				$scope.option = "hola mundo";
+
+				$scope.$on('msnTest', function(event, data){
+					$scope.option = 'ok';
+				});
+
 				this.addToCart = function(product) {
 					localStorageHandler.setPoduct(product);
 				};
